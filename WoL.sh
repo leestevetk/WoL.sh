@@ -1,10 +1,17 @@
+# WoL.sh
+# Project homepage: https://leesteve.tk/wol.sh
+# Version 0.1 (20200302) (Pre-release)
+
+# This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
 if [ $# -le 0 ]; then
 # Display help if no arguments
 printf "Wake-On-LAN Utility
 
 This utility sends a magic packet to wake up a machine properly configured to listen to Wake-On-LAN/WLAN requests.
 
-   Usage:  wol.sh [MAC] [IP] [Port]
+   Usage:  WoL.sh [MAC] [IP] [Port]
    
    MAC:    mandatory, MAC address of the target machine
    
