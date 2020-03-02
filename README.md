@@ -1,14 +1,14 @@
 # WoL.sh
 WoL.sh is a simple Wake-on-LAN shell script.
 
-- [Download](#Download)
-- [Compatibility](#Compatibility)
-- [Before Use](#Before%20Use)
-- [Syntax](#Syntax)
-- [Examples](#Examples)
-- [Why WoL.sh?](#Why%20WoL.sh%3F)
-- [What is Wake-on-LAN or Wake-on-WLAN?](#What%20is%20Wake-on-LAN%20or%20Wake-on-WLAN%3F)
-- [Licence](#Licence)
+- [Download](#download)
+- [Compatibility](#compatibility)
+- [Before Use](#before-use)
+- [Syntax](#syntax)
+- [Examples](#examples)
+- [Why WoL.sh?](#why-wol.sh)
+- [What is Wake-on-LAN or Wake-on-WLAN?](#what-is-wake-on-lan-or-wake-on-wlan)
+- [Licence](#licence)
 
 ## Download
 - The latest version of WoL.sh is 0.1 (Pre-release).
