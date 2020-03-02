@@ -24,19 +24,24 @@ WoL.sh [MAC] [IP] [Port]
 - `Port`: *optional*, the magic packet will be sent to this port, default: 9
 
 ## Examples
-The following examples assume WoL.sh is placed under `~/Desktop` and the target computer's MAC address is `0F:1E:2D:3C:4B:5A`. Please remember to change them as appropriate.
 
 ### Example 1 (Recommended)
 ```
 ~/Desktop/WoL.sh 0F:1E:2D:3C:4B:5A 192.168.1.100
 ```
-This will send the magic packet to 192.168.1.100 at port 9 (default).  The target computer must be at __192.168.1.100__.
+In this example:
+- WoL.sh is placed under `~/Desktop/WoL.sh`.
+- The target computer's MAC address is `0F:1E:2D:3C:4B:5A`.
+- This command will send a magic packet to `192.168.1.100` at port `9` (usual port for magic packets).  
 
 ### Example 2
 ```
 ~/Desktop/WoL.sh 0F:1E:2D:3C:4B:5A 192.168.1.100 9000
 ```
-This will send the magic packet to 192.168.1.100 at port 9000.  The target computer must be at __192.168.1.100__ and must be listening at port __9000__.
+In this example:
+- WoL.sh is placed under `~/Desktop/WoL.sh`.
+- The target computer's MAC address is `0F:1E:2D:3C:4B:5A`.
+- This command will send a magic packet to `192.168.1.100` at port `9000`.  It is usually unnecessary to specific the port unless port 9 of the target is blocked (e.g. by a firewall). 
 
 ## Why WoL.sh
 __WoL.sh does not require installation.__  Most authors on the web recommend dedicated programs to perform Wake-on-LAN. A common example is "wakeonlan" for Macs.  These programs are well-tested and probably contain more features than WoL.sh.  But there are many scenarios where installing a program is inappropriate or not allowed (e.g. on a company machine) or there may be  concerns over installing new software.
