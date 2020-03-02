@@ -5,13 +5,14 @@ WoL.sh is a simple shell Wake-on-LAN script.
 WoL.sh should *(but is not guaranteed to)* work on __Mac__ or __Linux__ systems.  The author used this utility from a macOS 10.15.3 system to wake up a Windows 10 PC.
 
 ## Syntax
-Usage: `wol.sh [MAC] [IP] [Port]`
-   
-   MAC:    mandatory, MAC address of the target machine
-   IP:     optional, the magic packet will be sent to this IP
-           default: 255.255.255.255 (broadcast to all IPs)
-   Port:   optional, the magic packet will be sent to this port
-           default: 9
+Usage:
+> `wol.sh [MAC] [IP] [Port]`
+> 
+> MAC:    mandatory, MAC address of the target machine
+> IP:     optional, the magic packet will be sent to this IP
+>         default: 255.255.255.255 (broadcast to all IPs)
+> Port:   optional, the magic packet will be sent to this port
+>         default: 9
 
 ## Why WoL.sh
 <b>WoL.sh does not require installation.</b>  Most authors recommend dedicated programs to perform Wake-on-LAN. A common example is "wakeonlan" for Macs.  These programs are well-tested and probably contain more features than WoL.sh.  But there are many scenarios where installing a program is inappropriate or not allowed (e.g. on a company machine) or there may be  concerns over installing new software.
