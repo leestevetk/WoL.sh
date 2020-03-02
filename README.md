@@ -1,5 +1,5 @@
 # WoL.sh
-WoL.sh is a simple shell Wake-on-LAN script.
+WoL.sh is a simple Wake-on-LAN shell script.
 
 ## Compatibility
 WoL.sh should *(but is not guaranteed to)* work on __Mac__ or __Linux__ systems.  The author used this utility from a macOS 10.15.3 system to wake up a Windows 10 PC.
