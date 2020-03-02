@@ -11,7 +11,9 @@ chmod u+x ~/Desktop/WoL.sh
 ```
 
 ## Syntax
-    WoL.sh [MAC] [IP] [Port]
+```
+WoL.sh [MAC] [IP] [Port]
+```
 - `MAC`: __mandatory__, MAC address of the target machine
 - `IP`: *optional*, the magic packet will be sent to this IP, default: 255.255.255.255 (broadcast to all IPs)
 - `Port`: *optional*, the magic packet will be sent to this port, default: 9
