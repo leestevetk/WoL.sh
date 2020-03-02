@@ -6,9 +6,9 @@ WoL.sh should *(but is not guaranteed to)* work on __Mac__ or __Linux__ systems.
 
 ## Syntax
     Usage:  wol.sh [MAC] [IP] [Port]
--`MAC`: mandatory, MAC address of the target machine
--`IP`: optional, the magic packet will be sent to this IP, default: 255.255.255.255 (broadcast to all IPs)
--`Port`: optional, the magic packet will be sent to this port, default: 9
+- `MAC`: mandatory, MAC address of the target machine
+- `IP`: optional, the magic packet will be sent to this IP, default: 255.255.255.255 (broadcast to all IPs)
+- `Port`: optional, the magic packet will be sent to this port, default: 9
 
 ## Examples
 The following examples use 
