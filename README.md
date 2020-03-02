@@ -6,7 +6,7 @@ WoL.sh should *(but is not guaranteed to)* work on __Mac__ or __Linux__ systems.
 
 ## Download
 - You may download the latest version of WoL.sh [here](https://leesteve.tk/WoL.sh/WoL.sh).
-- For old releases, please visit out [GitHub releases](https://leesteve.tk/WoL.sh/WoL.sh).
+- For old releases, please visit out [GitHub releases](https://github.com/leestevetk/WoL.sh/releases).
 
 ## Before Use
 Like any shell script, you must first make WoL.sh executable.  This can be done by running in terminal (assuming WoL.sh is placed under `~/Desktop`):
