@@ -32,7 +32,7 @@ This will send the magic packet to 192.168.1.100 at port 9 (default).  The targe
 This will send the magic packet to 192.168.1.100 at port 9000.  The target computer must be at __192.168.1.100__ and must be listening at port __9000__.
 
 ## Why WoL.sh
-<b>WoL.sh does not require installation.</b>  Most authors recommend dedicated programs to perform Wake-on-LAN. A common example is "wakeonlan" for Macs.  These programs are well-tested and probably contain more features than WoL.sh.  But there are many scenarios where installing a program is inappropriate or not allowed (e.g. on a company machine) or there may be  concerns over installing new software.
+<b>WoL.sh does not require installation.</b>  Most authors on the web recommend dedicated programs to perform Wake-on-LAN. A common example is "wakeonlan" for Macs.  These programs are well-tested and probably contain more features than WoL.sh.  But there are many scenarios where installing a program is inappropriate or not allowed (e.g. on a company machine) or there may be  concerns over installing new software.
 
 ## What is Wake-on-LAN or Wake-on-WLAN?
 A computer can be configured to wake from sleep when it receieves a special network message known as a "Magic Packet".  This technique is known as "Wake-on-LAN" (for a computer using a wired connection) or "Wake-on-WLAN" (for a computer using a wireless connection).  Read more on https://en.wikipedia.org/wiki/Wake-on-LAN
