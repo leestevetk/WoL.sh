@@ -6,7 +6,7 @@ WoL.sh is a simple Wake-on-LAN shell script.
 - [Before Use](#before-use)
 - [Syntax](#syntax)
 - [Examples](#examples)
-- [Why WoL.sh?](#why-wol.sh)
+- [Why WoL.sh?](#why-wolsh)
 - [What is Wake-on-LAN or Wake-on-WLAN?](#what-is-wake-on-lan-or-wake-on-wlan)
 - [Licence](#licence)
 
