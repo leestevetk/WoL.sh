@@ -1,13 +1,13 @@
 # WoL.sh
 WoL.sh is a simple Wake-on-LAN shell script.
 
-## Compatibility
-WoL.sh should *(but is not guaranteed to)* work on __Mac__ or __Linux__ systems.  The author used this utility from a macOS 10.15.3 system to wake up a Windows 10 PC.
-
 ## Download
 - The latest version of WoL.sh is 0.1 (Pre-release).
 - [Click here to download](https://leesteve.tk/WoL.sh/WoL.sh) the latest version of WoL.sh.
 - *For old releases, please check out the project's [GitHub releases page](https://github.com/leestevetk/WoL.sh/releases).*
+
+## Compatibility
+WoL.sh should *(but is not guaranteed to)* work on __Mac__ or __Linux__ systems.  The author used this utility from a macOS 10.15.3 system to wake up a Windows 10 PC.
 
 ## Before Use
 Like any shell script, you must first make WoL.sh executable.  This can be done by running in terminal (assuming WoL.sh is placed under `~/Desktop`):
