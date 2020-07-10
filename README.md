@@ -49,7 +49,7 @@ In this example:
 In this example:
 - WoL.sh is located at `~/Desktop/WoL.sh`.
 - The target computer's MAC address is `0F:1E:2D:3C:4B:5A`.
-- This command will send a magic packet to `192.168.1.100` at port `9000`.  It is usually unnecessary to specific the port unless port 9 of the target is blocked (e.g. by a firewall).
+- This command will send a magic packet to `192.168.1.100` at port `9000`.  It is usually unnecessary to specify the port unless port 9 of the target is blocked (e.g. by a firewall).
 
 ## Example 3
 ```
